@@ -7,6 +7,9 @@ app = Flask(__name__, template_folder='templates' )
 def base_page():
   return render_template('base.html')
 
+def scripts_page():
+  return render_template('script')
+
 # def index():
 #     return '<h1>Jello from Flask!</h1>'
 

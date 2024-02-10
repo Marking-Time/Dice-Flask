@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script  src="../templates/script.js"></script>
+  <script  src="script.js"></script>
 </head>
 <body>
   test
@@ -23,32 +23,33 @@
   <h1>&#9861; Six</h1>
   test 2 3 4 5 6
   </div>
-<script>
-function fade(element) {
-    var op = 1;  // initial opacity
-    var timer = setInterval(function () {
-        if (op <= 0.1){
-            clearInterval(timer);
-            element.style.display = 'none';
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.1;
-    }, 50);
-}
+<scrip src="../templates/script.js">
+<!-- // function fade(element) {
+//     var op = 1;  // initial opacity
+//     var timer = setInterval(function () {
+//         if (op <= 0.1){
+//             clearInterval(timer);
+//             element.style.display = 'none';
+//         }
+//         element.style.opacity = op;
+//         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+//         op -= op * 0.1;
+//     }, 50);
+// }
 
-function unfade(element) {
-    var op = 0.1;  // initial opacity
-    element.style.display = 'block';
-    var timer = setInterval(function () {
-        if (op >= 1){
-            clearInterval(timer);
-        }
-        element.style.opacity = op;
-        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op += op * 0.05;
-    }, 10);
-}</script>
+// function unfade(element) {
+//     var op = 0.1;  // initial opacity
+//     element.style.display = 'block';
+//     var timer = setInterval(function () {
+//         if (op >= 1){
+//             clearInterval(timer);
+//         }
+//         element.style.opacity = op;
+//         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+//         op += op * 0.05;
+//     }, 10);
+} -->
+</script>
 </body>
  
 </html>
