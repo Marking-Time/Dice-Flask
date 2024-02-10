@@ -8,7 +8,7 @@ def base_page():
   return render_template('base.html')
 
 def scripts_page():
-  return render_template('script')
+  return render_template('script.js')
 
 # def index():
 #     return '<h1>Jello from Flask!</h1>'
